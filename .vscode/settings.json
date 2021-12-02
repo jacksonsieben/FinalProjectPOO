@@ -1,21 +1,6 @@
 {
     "java.project.sourcePaths": [
-        "FrontEnd",
-        "lib",
-        "lib\\Interfaces",
-        "lib\\Modelos",
-        "src",
-        "lib\\FrontEnd",
-        "lib\\Interfaces\\CRUDs",
-        "lib\\Interfaces\\CRUDs\\ConnectsSQL",
-        "lib\\Interfaces\\CRUDs\\Modelos",
-        "lib\\FrontEnd\\Cliente",
-        "lib\\FrontEnd\\Funcionario",
-        "lib\\FrontEnd\\Inicio",
-        "lib\\FrontEnd\\Ordem de Servico",
-        "lib\\FrontEnd\\Produto",
-        "lib\\FrontEnd\\Servico",
-        "lib\\FrontEnd\\Venda"
+        "lib"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": {

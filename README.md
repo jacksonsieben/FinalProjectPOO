@@ -6,4 +6,6 @@
  Na UTFPR
 
  Desenvolvido no segundo semestre de 2021 remotamente
- 
+
+
+ Desenvolvido por Jackson Sieben, estudante do curso Ciências da Computação na UTFPR

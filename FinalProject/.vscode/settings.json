@@ -1,0 +1,31 @@
+{
+    "java.project.sourcePaths": [
+        "FrontEnd",
+        "lib",
+        "lib\\Interfaces",
+        "lib\\Modelos",
+        "src",
+        "lib\\FrontEnd",
+        "lib\\Interfaces\\CRUDs",
+        "lib\\Interfaces\\CRUDs\\ConnectsSQL",
+        "lib\\Interfaces\\CRUDs\\Modelos",
+        "lib\\FrontEnd\\Cliente",
+        "lib\\FrontEnd\\Funcionario",
+        "lib\\FrontEnd\\Inicio",
+        "lib\\FrontEnd\\Ordem de Servico",
+        "lib\\FrontEnd\\Produto",
+        "lib\\FrontEnd\\Servico",
+        "lib\\FrontEnd\\Venda"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-java-8.0.27.jar"
+        ],
+        "exclude": [
+            "lib/mysql-connector.jar",
+            "lib/ConnectsSQL/mysql-connector.jar"
+        ]
+    }
+}

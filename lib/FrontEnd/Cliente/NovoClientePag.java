@@ -231,7 +231,7 @@ public class NovoClientePag implements ActionListener{
         if(textoTipo.getSelectedItem().equals("Física")){ 
             Cliente.inserirClienteFisico(textoNome.getText(), textoSobrenomeIE.getText(), textoCpfCnpj.getText(), textoEmail.getText(), textoTelefone.getText(), textoRua.getText(), Integer.parseInt(textoNum.getText().trim()), textoBairro.getText(), textoCidade.getText(), textoEstado.getText(), textoCEP.getText());
         }else if(textoTipo.getSelectedItem().equals("Jurídica")){
-            Cliente.inserirClienteJuridico(textoNome.getText(), textoSobrenomeIE.getText(), textoCpfCnpj.getText(), textoEmail.getText(), textoTelefone.getText(), textoRua.getText(), Integer.parseInt(textoNum.getText().trim()), textoBairro.getText(), textoCidade.getText(), textoEstado.getText(), textoCEP.getText());
+            Cliente.inserirClienteJuridico(textoNome.getText(), textoCpfCnpj.getText(), textoSobrenomeIE.getText(), textoEmail.getText(), textoTelefone.getText(), textoRua.getText(), Integer.parseInt(textoNum.getText().trim()), textoBairro.getText(), textoCidade.getText(), textoEstado.getText(), textoCEP.getText());
         }
         pagCliente.dispose();
         pagCliente.inicializar();
